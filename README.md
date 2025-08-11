@@ -5,7 +5,7 @@
 Install the dependencies:
 
 ```bash
-pnpm install
+yarn
 ```
 
 ## Get started
@@ -13,19 +13,19 @@ pnpm install
 Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
+yarn build
 ```
 
 Preview the production build locally:
 
 ```bash
-pnpm preview
+yarn preview
 ```
 
 ## Learn more
@@ -34,3 +34,16 @@ To learn more about Rsbuild, check out the following resources:
 
 - [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
 - [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+
+## Capacitor test
+
+For testing capacitor app, you need to install [Android Studio](https://developer.android.com/studio)
+
+Run
+
+```bash
+yarn build
+yarn cap sync android
+```
+
+This will open capacitor project in Android Studio.
