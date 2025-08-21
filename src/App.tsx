@@ -13,7 +13,7 @@ const App = () => {
     <PrivyProvider
       appId="cm4ihuook06jfc4ew4dmh5hph"
       config={{
-        loginMethods: ['wallet', 'google'],
+        loginMethods: ['wallet', 'google', 'email'],
         appearance: {
           walletList: ['detected_solana_wallets', 'solflare'],
           theme: '#775045',
