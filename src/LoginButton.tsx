@@ -9,7 +9,11 @@ const LoginButton = () => {
     <>
       {!user && (
         <button
-          onClick={() => login({ loginMethods: ['wallet', 'google', 'apple'] })}
+          onClick={() =>
+            login({
+              loginMethods: ['wallet', 'google', 'apple', 'email'],
+            })
+          }
         >
           Log in
         </button>
